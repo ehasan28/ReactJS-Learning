@@ -60,14 +60,16 @@ body {
 }
 
 .center h3{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
+    margin-bottom: 10px;
+    color: #111;
 }
 
 .center h3 span{
     font-size: 9px;
     font-weight: 400;
-    color: #8b8b8b
+    color: #8b8b8b;
 }
 
 .center h2{
@@ -86,7 +88,7 @@ body {
     color: #111;
     padding: 4px 8px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 12px;
     border-radius: 4px;
 }
 
@@ -100,15 +102,19 @@ body {
 
 .bottom button{
     background-color: #000;
-    color: #fff;
-    padding: 5px 10px;
+    color: #f0f0f0;
+    padding: 6px 10px;
     border: none;
     border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
     column-width: 600;
 }
 
 .bottom h3{
     font-size: 17px;
+    color: #111;
+    margin-bottom: 4px;
 }
 .bottom p{
     font-size: 11px;
