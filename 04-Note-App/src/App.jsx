@@ -4,15 +4,15 @@ const App = () => {
 
   const [title, setTitle] = useState('')
   const [detail, setDetail] = useState('')
-  
+
   const [notes, setNotes] = useState([])
 
   const addNoteHandler = (e) => {
     e.preventDefault()
-    
+
     const updateNotes = [...notes]
 
-    updateNotes.push({title, detail})
+    updateNotes.push({ title, detail })
 
     setNotes(updateNotes)
 
@@ -22,7 +22,7 @@ const App = () => {
 
   const deleteNote = (idx) => {
     const updateNotes = [...notes]
-    updateNotes.splice(idx,1)
+    updateNotes.splice(idx, 1)
 
     setNotes(updateNotes)
   }
@@ -41,7 +41,7 @@ const App = () => {
           type="text"
           placeholder="What's on your mind?"
           value={title}
-          onChange={(e)=>{
+          onChange={(e) => {
             setTitle(e.target.value)
           }}
         />
@@ -53,7 +53,7 @@ const App = () => {
           name=""
           id=""
           value={detail}
-          onChange={(e)=>{
+          onChange={(e) => {
             setDetail(e.target.value)
           }}
         />
@@ -73,11 +73,11 @@ const App = () => {
                 <h3 className='leading-tight text-lg mb-2 font-semibold text-black'>{elem.title}</h3>
                 <p className='leading-tight text-sm text-gray-500'>{elem.detail}</p>
               </div>
-              <button 
-              className="w-full cursor-pointer active:scale-95 bg-red-500 py-1 text-xs rounded font-semibold text-white mt-6"
-              onClick={()=> {
-                deleteNote(idx)
-              }}
+              <button
+                className="w-full cursor-pointer active:scale-95 bg-red-500 py-1 text-xs rounded font-semibold text-white mt-6"
+                onClick={() => {
+                  deleteNote(idx)
+                }}
               >
                 Delete
               </button>
