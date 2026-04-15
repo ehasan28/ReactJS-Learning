@@ -20,7 +20,6 @@ src/
 │   ├── LogoCloud.jsx
 │   ├── Features.jsx
 │   ├── Integrations.jsx
-│   ├── Stats.jsx
 │   ├── Testimonials.jsx
 │   └── CTA.jsx
 │

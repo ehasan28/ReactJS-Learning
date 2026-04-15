@@ -45,6 +45,13 @@ Path: `06-Gallery-Project`
 - Supports paginated browsing with previous and next controls
 - Focuses on `useEffect`, async data fetching with Axios, state-driven re-rendering, and responsive layouts with Tailwind CSS
 
+### 7. Landing Page
+Path: `07-Landing-Page`
+
+- A responsive SaaS-style landing page built with reusable React sections and components
+- Includes hero, logo cloud, features, integrations, testimonials, CTA, header, and footer sections
+- Focuses on component composition, section-based page architecture, and polished responsive UI design
+
 ## Tech Stack
 
 - React 19
@@ -82,6 +89,7 @@ ReactJS-Learning/
 ├── 04-Note-App/
 ├── 05-localstorage-api/
 ├── 06-Gallery-Project/
+├── 07-Landing-Page/
 └── README.md
 ```
 

@@ -28,7 +28,7 @@ const Features = () => {
           Connect, explore, and visualize from over 150 SaaS tools without engineering or SQL.
         </p>
 
-        <div className='grid md:grid-cols-6 xl:grid-cols-12 mt-6 gap-8'>
+        <div className='grid md:grid-cols-6 xl:grid-cols-12 mt-6 mb-6 gap-8'>
           <div className="flex flex-col xl:col-span-7 md:col-span-6 shadow-xl border border-gray-100 rounded-2xl">
             <div className='overflow-x-auto mt-12 mb-10'>
               <div className='flex mb-6 gap-8 min-w-max'>
@@ -77,7 +77,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 border border-gray-100 rounded-2xl">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 border border-gray-100 rounded-2xl">
             <div className=''>
               <img src={Feature3} alt="" />
             </div>
@@ -94,7 +94,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
             <div className=''>
               <img src={Feature4} alt="" />
             </div>
@@ -111,7 +111,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
             <div className=''>
               <img src={Feature5} alt="" />
             </div>
@@ -128,7 +128,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
             <div className=''>
               <img src={Feature6} alt="" />
             </div>
@@ -145,7 +145,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
             <div className=''>
               <img src={Feature7} alt="" />
             </div>
@@ -162,7 +162,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
+          <div className="flex justify-between flex-col xl:col-span-4 md:col-span-3 shadow-xl p-10 rounded-2xl border border-gray-100">
             <div className=''>
               <img src={Feature8} alt="" />
             </div>
